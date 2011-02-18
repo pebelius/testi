@@ -10,7 +10,7 @@
 
 namespace sc = boost::statechart;
 
-/*
+
 sc::result State::react( const ManualStart & ) {
 	;
 }
@@ -59,7 +59,6 @@ sc::result State::react( const UpdateMsg & ) {
 sc::result State::react( const UpdateMsgErr & ) {
 	;
 }
-*/
 
 sc::result Idle::react( const ManualStart & ) {
 	initializeResources();
